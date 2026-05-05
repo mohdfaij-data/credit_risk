@@ -1,7 +1,52 @@
 <div align="center">
 
-<!-- HEADER BANNER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,12,20&height=200&section=header&text=Credit%20Risk%20%26%20Loan%20Portfolio%20Analysis&fontSize=36&fontColor=ffffff&fontAlignY=38&desc=Power%20BI%20%7C%20DAX%20%7C%20SQL%20%7C%20Python%20%7C%20Financial%20Risk%20Intelligence&descAlignY=58&descSize=16&animation=fadeIn" />
+<!-- HEADER BANNER — pure SVG, no external service needed -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0a0c12"/>
+      <stop offset="50%"  stop-color="#0d2d2e"/>
+      <stop offset="100%" stop-color="#06BEC4" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="#06BEC4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#06BEC4" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="#E66C37" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#E66C37" stop-opacity="0.03"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="200" fill="url(#bg)" rx="0"/>
+  <!-- Wave shapes -->
+  <path d="M0,120 C200,80 400,160 600,110 C800,60 1000,140 1200,100 L1200,200 L0,200 Z" fill="url(#wave1)"/>
+  <path d="M0,150 C300,110 500,170 750,130 C950,100 1100,155 1200,135 L1200,200 L0,200 Z" fill="url(#wave2)"/>
+  <!-- Accent line -->
+  <rect x="0" y="197" width="1200" height="3" fill="#06BEC4" opacity="0.8"/>
+  <!-- Shield icon dots -->
+  <circle cx="80"  cy="60"  r="28" fill="#06BEC4" opacity="0.08"/>
+  <circle cx="80"  cy="60"  r="16" fill="#06BEC4" opacity="0.12"/>
+  <circle cx="80"  cy="60"  r="7"  fill="#06BEC4" opacity="0.5"/>
+  <circle cx="1120" cy="140" r="22" fill="#E66C37" opacity="0.08"/>
+  <circle cx="1120" cy="140" r="12" fill="#E66C37" opacity="0.12"/>
+  <circle cx="1120" cy="140" r="5"  fill="#E66C37" opacity="0.5"/>
+  <!-- Title -->
+  <text x="600" y="85" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700"
+        fill="#ffffff" text-anchor="middle" letter-spacing="-0.5">
+    Credit Risk &amp; Loan Portfolio Analysis
+  </text>
+  <!-- Subtitle -->
+  <text x="600" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400"
+        fill="#06BEC4" text-anchor="middle" letter-spacing="0.5">
+    Power BI  ·  DAX  ·  SQL  ·  Python  ·  Financial Risk Intelligence
+  </text>
+  <!-- Tag line -->
+  <text x="600" y="155" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="300"
+        fill="rgba(255,255,255,0.55)" text-anchor="middle" letter-spacing="1">
+    32,600 CUSTOMERS  ·  ₹312.4M PORTFOLIO  ·  21.82% DEFAULT RATE
+  </text>
+</svg>
 
 <br/>
 
@@ -472,6 +517,16 @@ jupyter notebook python/01_eda_analysis.ipynb
 
 **If this project helped you, consider giving it a ⭐ — it means a lot!**
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,12,20&height=100&section=footer&animation=fadeIn"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 80" width="100%">
+  <defs>
+    <linearGradient id="footerbg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#06BEC4" stop-opacity="0.85"/>
+      <stop offset="50%"  stop-color="#0d2d2e"/>
+      <stop offset="100%" stop-color="#0a0c12"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,0 C200,50 400,10 600,40 C800,70 1000,20 1200,45 L1200,80 L0,80 Z" fill="url(#footerbg)"/>
+  <rect x="0" y="0" width="1200" height="3" fill="#06BEC4" opacity="0.6"/>
+</svg>
 
 </div>
