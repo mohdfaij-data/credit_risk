@@ -70,7 +70,7 @@
 <br/>
 
 <!-- QUICK LINKS -->
-[🚀 Live Dashboard](#) &nbsp;•&nbsp; [📊 EDA Report](#) &nbsp;•&nbsp; [💼 Portfolio](#https://linkedin.com/in/mohdfaij-data) &nbsp;•&nbsp; [📬 Contact](#)
+[🚀 Live Dashboard](#) &nbsp;•&nbsp; [📊 EDA Report](https://github.com/mohdfaij-data/credit_risk/blob/main/Credit-Risk-Report-and-Strategic-Actions.pdf) &nbsp;•&nbsp; [💼 Portfolio](#https://linkedin.com/in/mohdfaij-data) &nbsp;•&nbsp; [📬 Contact](#)
 
 </div>
 
